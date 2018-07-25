@@ -6,6 +6,6 @@ item["prince"] => "prince"
 
 pluralizer = ["Song","Beyonce","Marker","Prince"]
 
-pluralizer.each do ||
- puts "My pet is a #{pet}"
+pluralizer.each do |plural|
+ puts " plural is #{pluralizer}s"
 end
